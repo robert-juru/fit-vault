@@ -1,0 +1,44 @@
+.card {
+  max-width: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: white;
+  border-radius: 12px;
+}
+
+.cardImage {
+  width: 100%;
+}
+
+.programName {
+  padding: 12px 0px;
+  text-align: center;
+}
+
+.cardDifficulty,
+.cardGoal {
+  background-color: hsl(34, 100%, 92%);
+  color: #9a3412;
+  padding: 6px;
+  border-radius: 6px;
+  margin-bottom: 12px;
+}
+
+.cardNrWorkouts,
+.cardWorkoutDuration {
+  background-color: #cffafe;
+  color: #155e75;
+  padding: 6px;
+  border-radius: 6px;
+  margin-bottom: 12px;
+}
+
+.cardDescription {
+  display: flex;
+  flex-wrap:wrap;
+  justify-content: center;
+  align-items: center;
+  gap:8px;
+  font-size:12px;
+}

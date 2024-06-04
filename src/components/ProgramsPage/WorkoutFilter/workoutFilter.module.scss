@@ -1,0 +1,61 @@
+.container {
+  background-color: white;
+  display: flex;
+  margin: 48px 0px;
+  justify-content: center;
+  flex-direction: column;
+  padding: 24px 48px;
+  border-radius: 12px;
+}
+
+.workoutProgramsContainer {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 24px;
+}
+
+.filtersContainer {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 40% 60%;
+}
+
+.searchContainer {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+input {
+  border: 1px solid #9ca3af;
+  border-radius: 16px;
+  padding: 8px 32px;
+  max-width: 300px;
+  color: #374151;
+}
+
+ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 16px;
+  gap: 16px;
+}
+
+.lastFilter {
+  margin-bottom: 0px;
+}
+
+ul > li {
+  border: 1px solid #9ca3af;
+  border-radius: 16px;
+  padding: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.filterHeader {
+  padding-left: 48px;
+  font-size:18px;
+}
