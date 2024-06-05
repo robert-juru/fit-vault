@@ -1,5 +1,6 @@
 import logoImage from "/fit-vault-logo.png";
 import styles from "./header.module.scss";
+import { Link } from "react-router-dom";
 
 const Header = () => {
   return (
@@ -7,31 +8,28 @@ const Header = () => {
       <header>
         <nav>
           <ul className={styles.header}>
-              <a href="">
+              <Link to="/">
                 <img
                   className={styles.logoImage}
                   src={logoImage}
                   alt="fit vault logo"
                 />
-              </a>
+              </Link>
             <div className={styles.navLinks}>
               <li>
-                <a href=""></a>
+                <Link to="/">Home</Link>
               </li>
               <li>
-                <a href="">Home</a>
+                <Link to="/">Programs</Link>
               </li>
               <li>
-                <a href="">Programs</a>
+                <Link to="/">Exercise Guide</Link>
               </li>
               <li>
-                <a href="">Exercise Guide</a>
+                <Link to="/">FAQ</Link>
               </li>
               <li>
-                <a href="">FAQ</a>
-              </li>
-              <li>
-                <a href="">Contact</a>
+                <Link to="/">Contact</Link>
               </li>
             </div>
           </ul>

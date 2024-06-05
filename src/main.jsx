@@ -1,11 +1,21 @@
-import React from 'react'
-import ReactDOM from 'react-dom/client'
-import App from './App.jsx'
-import './index.scss'
+import React from "react";
+import ReactDOM from "react-dom/client";
+import { createBrowserRouter,  RouterProvider } from "react-router-dom";
+import "./index.scss";
 import "@fontsource/roboto";
+import App from "./App.jsx";
+import TrainingProgram from "./components/TrainingProgram/TrainingProgram.jsx";
 
-ReactDOM.createRoot(document.getElementById('root')).render(
+const router = createBrowserRouter([
+  {
+    path: "/",
+    element: <App />,
+  },
+  { path: "program", element: <TrainingProgram /> },
+]);
+
+ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
-    <App />
-  </React.StrictMode>,
-)
+    <RouterProvider router={router} />
+  </React.StrictMode>
+);

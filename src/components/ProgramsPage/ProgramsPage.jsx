@@ -8,11 +8,9 @@ const ProgramsPage = () => {
     <div className={styles.pageContainer}>
       <Header />
       <main className={styles.mainContainer}>
-        <div>
-          <h1 className={styles.pageHeader}>Workout Programs</h1>
-          <WorkoutFilter />
-          <ProgramsList/>
-        </div>
+        <h1 className={styles.pageHeader}>Workout Programs</h1>
+        <WorkoutFilter />
+        <ProgramsList />
       </main>
     </div>
   );

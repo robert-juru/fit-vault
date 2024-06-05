@@ -1,5 +1,5 @@
 import styles from "./workoutFilter.module.scss";
-import programs from "../ProgramsList/programs";
+import programs from "../../../programs";
 
 const Filters = () => {
   const getUniqueFilterValues = (key) => {

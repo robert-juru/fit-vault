@@ -26,3 +26,22 @@ a {
   color: inherit;
   text-decoration: none;
 }
+
+.pageContainer {
+  display:grid;
+  grid-template-rows: 100px 1fr;
+  height: 100vh;
+}
+
+.mainContainer {
+  background-color: $main-bgcolor;
+  border-top: $main-border-top;
+  padding: 0px 180px;
+}
+
+.pageHeader {
+  text-align:center;
+  font-weight: bold;
+  margin-top:32px;
+  font-size:36px;
+}

@@ -1,0 +1,10 @@
+@import "/src/index.scss";
+
+.programImageContainer {
+  @include flex-center;
+  margin-top: 36px;
+}
+
+.programImage {
+  width: 800px;
+}
