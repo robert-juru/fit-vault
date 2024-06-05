@@ -9,6 +9,7 @@ const ProgramsPage = () => {
       <Header />
       <main className={styles.mainContainer}>
         <div>
+          <h1 className={styles.pageHeader}>Workout Programs</h1>
           <WorkoutFilter />
           <ProgramsList/>
         </div>

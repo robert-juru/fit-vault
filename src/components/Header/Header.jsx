@@ -7,7 +7,6 @@ const Header = () => {
       <header>
         <nav>
           <ul className={styles.header}>
-            {/* <h1> */}
               <a href="">
                 <img
                   className={styles.logoImage}
@@ -15,7 +14,6 @@ const Header = () => {
                   alt="fit vault logo"
                 />
               </a>
-            {/* </h1> */}
             <div className={styles.navLinks}>
               <li>
                 <a href=""></a>

@@ -1,4 +1,3 @@
-
 const programs = [
   {
     programImage: "./program-image-placeholder.webp",

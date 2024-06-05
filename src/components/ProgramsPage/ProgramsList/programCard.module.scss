@@ -1,3 +1,5 @@
+@import "/src/index.scss";
+
 .card {
   max-width: 500px;
   display: flex;
@@ -35,10 +37,8 @@
 }
 
 .cardDescription {
-  display: flex;
-  flex-wrap:wrap;
-  justify-content: center;
-  align-items: center;
-  gap:8px;
-  font-size:12px;
+  @include flex-center;
+  flex-wrap: wrap;
+  gap: 8px;
+  font-size: 12px;
 }

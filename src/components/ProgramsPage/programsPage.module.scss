@@ -1,4 +1,4 @@
-@import "../../index.scss";
+@import "/src/index.scss";
 
 .pageContainer {
   display:grid;
@@ -10,4 +10,11 @@
   background-color: $main-bgcolor;
   border-top: $main-border-top;
   padding: 0px 180px;
+}
+
+.pageHeader {
+  text-align:center;
+  font-weight: bold;
+  margin-top:32px;
+  font-size:36px;
 }

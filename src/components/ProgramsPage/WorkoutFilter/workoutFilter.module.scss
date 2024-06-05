@@ -1,3 +1,5 @@
+@import "/src/index.scss";
+
 .container {
   background-color: white;
   display: flex;
@@ -29,33 +31,33 @@
 input {
   border: 1px solid #9ca3af;
   border-radius: 16px;
-  padding: 8px 32px;
+  padding: 12px 36px;
   max-width: 300px;
   color: #374151;
+  font-size: 16px;
 }
 
 ul {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  @include flex-center;
   margin-bottom: 16px;
   gap: 16px;
+  > li {
+    @include flex-center;
+    border: 1px solid #9ca3af;
+    border-radius: 16px;
+    padding: 8px;
+    text-align: center;
+  }
+  > li:hover {
+    cursor: pointer;
+  }
 }
 
 .lastFilter {
   margin-bottom: 0px;
 }
 
-ul > li {
-  border: 1px solid #9ca3af;
-  border-radius: 16px;
-  padding: 8px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-}
 .filterHeader {
   padding-left: 48px;
-  font-size:18px;
+  font-size: 18px;
 }

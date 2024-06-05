@@ -1,5 +1,10 @@
 $main-bgcolor: #f3f4f6;
 $main-border-top: 1px solid #e5e7eb;
+@mixin flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
 * {
   box-sizing: border-box;
@@ -8,7 +13,8 @@ $main-border-top: 1px solid #e5e7eb;
   font-family: "Roboto";
 }
 
-html, body {
+html,
+body {
   height: 100%;
 }
 
