@@ -27,8 +27,12 @@ a {
   text-decoration: none;
 }
 
+hr {
+  border: $main-border-top;
+}
+
 .pageContainer {
-  display:grid;
+  display: grid;
   grid-template-rows: 100px 1fr;
   height: 100vh;
 }
@@ -40,8 +44,8 @@ a {
 }
 
 .pageHeader {
-  text-align:center;
+  text-align: center;
   font-weight: bold;
-  margin-top:32px;
-  font-size:36px;
+  margin-top: 32px;
+  font-size: 36px;
 }

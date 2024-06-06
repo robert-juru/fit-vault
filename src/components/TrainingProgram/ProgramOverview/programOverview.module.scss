@@ -1,0 +1,27 @@
+@import "/src/index.scss";
+
+.container {
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: 24px 48px;
+  border-radius: 12px;
+  margin-top: 36px;
+  width: 80%;
+}
+
+.programHeader {
+  margin-bottom: 16px;
+  text-align: center;
+}
+
+.overviewCard {
+  display: flex;
+  flex-direction: column;
+}
+
+.overviewType,
+.overviewValue {
+  margin: 4px;
+}
