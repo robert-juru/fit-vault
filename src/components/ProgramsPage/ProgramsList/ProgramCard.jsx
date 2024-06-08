@@ -7,7 +7,7 @@ const ProgramCard = () => {
   let programCards = programs.map((program, i) => {
     return (
       <article className={styles.card} key={i}>
-        <Link to="program">
+        <Link to="/program">
           <img
             className={styles.cardImage}
             src={program.programImage}

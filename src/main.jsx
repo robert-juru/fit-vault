@@ -4,14 +4,16 @@ import { createBrowserRouter,  RouterProvider } from "react-router-dom";
 import "./index.scss";
 import "@fontsource/roboto";
 import App from "./App.jsx";
-import TrainingProgram from "./components/TrainingProgram/TrainingProgram.jsx";
+import TrainingProgramPage from "./components/TrainingProgramPage/TrainingProgramPage.jsx";
+import ExercisesPage from "./components/ExercisesPage/ExercisesPage.jsx";
 
 const router = createBrowserRouter([
   {
     path: "/",
     element: <App />,
   },
-  { path: "program", element: <TrainingProgram /> },
+  { path: "/program", element: <TrainingProgramPage /> },
+  { path: "/exercises", element: <ExercisesPage /> },
 ]);
 
 ReactDOM.createRoot(document.getElementById("root")).render(

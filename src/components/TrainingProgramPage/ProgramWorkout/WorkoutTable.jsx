@@ -46,7 +46,7 @@ export default function WorkoutTable() {
     <>
     <h2 className={styles.workoutNameHeader}>Workout A - Upper Body</h2>
     <TableContainer sx={{width:4/5, marginBottom:4}} component={Paper}>
-      <Table sx={{ minWidth: 500 }} aria-label="customized table">
+      <Table sx={{ minWidth: 300 }} aria-label="customized table">
         <TableHead>
           <TableRow>
           <StyledTableCell align="center">#</StyledTableCell>
