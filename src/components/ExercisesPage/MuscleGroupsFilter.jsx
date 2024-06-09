@@ -16,24 +16,9 @@ const muscleGroupsFilter = [
     image: "/muscle-groups-filter-images/biceps.png",
   },
   {
-    name: "Cardio",
-    page: "cardio",
-    image: "/muscle-groups-filter-images/cardio.png",
-  },
-  {
     name: "Chest",
     page: "chest",
     image: "/muscle-groups-filter-images/chest.png",
-  },
-  {
-    name: "Forearms",
-    page: "forearms",
-    image: "/muscle-groups-filter-images/forearms.png",
-  },
-  {
-    name: "Glutes",
-    page: "glutes",
-    image: "/muscle-groups-filter-images/glutes.png",
   },
   {
     name: "Calves",

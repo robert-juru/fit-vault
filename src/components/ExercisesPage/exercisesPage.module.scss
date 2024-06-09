@@ -16,11 +16,11 @@
 .muscleGroupImage {
   border: $main-border-top;
   border-radius: 999px;
-  width: 150px;
+  width: 270px;
 }
 .exercisesSection {
   display: grid;
   margin: 48px 0px;
   gap:24px;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
 }
