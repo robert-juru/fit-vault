@@ -1,7 +1,7 @@
 const muscleGroupsFilter = [
   {
     name: "All Exercises",
-    page: "all-exercises",
+    page: "all",
     image: "/muscle-groups-filter-images/all.png",
   },
   { name: "Abs", page: "abs", image: "/muscle-groups-filter-images/abs.png" },
@@ -32,12 +32,12 @@ const muscleGroupsFilter = [
   },
   {
     name: "Triceps",
-    page: "biceps",
+    page: "triceps",
     image: "/muscle-groups-filter-images/triceps.png",
   },
   {
     name: "Upper Legs",
-    page: "upper-legs",
+    page: "legs",
     image: "/muscle-groups-filter-images/upper_legs.png",
   },
 ];

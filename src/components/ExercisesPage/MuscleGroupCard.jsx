@@ -1,18 +1,25 @@
 import { Fragment } from "react";
 import muscleGroupsFilter from "./MuscleGroupsFilter";
 import styles from "./exercisesPage.module.scss";
+import { Link } from "react-router-dom";
 
 const MuscleGroupCard = () => {
-  let muscleGroups = muscleGroupsFilter.map((muscle, index) => {
-    return (
-      <article className={styles.muscleGroupCard} key={index}>
-        <img className={styles.muscleGroupImage} src={muscle.image} alt="muscle group filter image" />
-        <h3>{muscle.name}</h3>
-      </article>
-    );
-  });
-
-  return <Fragment>{muscleGroups}</Fragment>;
+  return (
+    <Fragment>
+      {muscleGroupsFilter.map((muscle, index) => (
+        <article className={styles.muscleGroupCard} key={index}>
+          <Link to={`/exercises/${muscle.page.toLowerCase()}`}>
+            <img
+              className={styles.muscleGroupImage}
+              src={muscle.image}
+              alt={`${muscle.name} filter`}
+            />
+            <h3>{muscle.name}</h3>
+          </Link>
+        </article>
+      ))}
+    </Fragment>
+  );
 };
 
 export default MuscleGroupCard;

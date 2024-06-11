@@ -7,6 +7,10 @@
   justify-content: center;
   background-color: white;
   border-radius: 12px;
+  transition: 0.3s transform;
+}
+.card:hover {
+  transform:scale(1.02);
 }
 
 .cardImage {

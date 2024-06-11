@@ -10,7 +10,7 @@ const ExercisesFilter = () => {
           Discover exercises tailored to strengthen the specific muscle groups
           you want to focus on.
         </h2>
-        <section className={styles.exercisesSection}>
+        <section className={styles.muscleGroupsSection}>
           <MuscleGroupCard />
         </section>
       </main>

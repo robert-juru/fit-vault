@@ -1,0 +1,52 @@
+@import "/src/index.scss";
+
+.exercisesPageContainer {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  background-color: $main-bgcolor;
+  border-top: $main-border-top;
+  padding: 0px 250px;
+}
+
+.exercisesSection {
+  display: grid;
+  margin: 36px 0px;
+  gap: 36px;
+  grid-template-columns: repeat(auto-fit, minmax(440px, 1fr));
+}
+
+.exerciseImage {
+  height: 150px;
+  width: 100%;
+}
+
+.exerciseCard {
+  background-color: white;
+  border-radius: 12px;
+  max-width: 500px;
+  display: grid;
+  padding: 8px;
+  grid-template-columns: 1fr 1fr;
+  transition: transform 0.3s, background-color 0.3s;
+}
+.exerciseCard:hover {
+  transform: scale(1.02);
+  background-color: #e4e4e7;
+}
+
+.exerciseDetails {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.exerciseName {
+  font-size: 20px;
+}
+.exerciseDescription {
+  font-style: italic;
+  // font-weight:100;
+  color: #808080;
+}
