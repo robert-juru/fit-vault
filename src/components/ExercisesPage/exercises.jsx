@@ -10,6 +10,7 @@ const absExercises = [
     exerciseImage:
       "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ0HFNmkTb2BRxKZLaquJVjpliLJpkY7ZEuAA&s",
     video: "https://www.youtube.com/watch?v=MKmrqcoCZ-M",
+    muscleGroupImage: "/muscle-groups-filter-images/abs.png",
   },
   {
     name: "Plank",
@@ -21,6 +22,7 @@ const absExercises = [
     exerciseImage:
       "https://hips.hearstapps.com/hmg-prod/images/hdm119918mh15842-1545237096.png?crop=0.668xw:1.00xh;0.117xw,0&resize=1200:*",
     video: "https://www.youtube.com/watch?v=Ff4_A3y7JR0",
+    muscleGroupImage: "/muscle-groups-filter-images/abs.png",
   },
   {
     name: "Hanging Leg Raise",
@@ -33,6 +35,7 @@ const absExercises = [
     exerciseImage:
       "https://www.wikihow.com/images/thumb/a/a7/Do-a-Hanging-Leg-Raise-Step-5-Version-2.jpg/v4-460px-Do-a-Hanging-Leg-Raise-Step-5-Version-2.jpg",
     video: "https://www.youtube.com/watch?v=7FwGZ8qY5OU",
+    muscleGroupImage: "/muscle-groups-filter-images/abs.png",
   },
   {
     name: "Bicycle Crunches",
@@ -45,6 +48,7 @@ const absExercises = [
     exerciseImage:
       "https://cdn.media.amplience.net/i/thegymgroup/The_Gym_Group-Exercises-How_To_Do_A_Bicycle_Crunch-Step_By_Step_6?fmt=auto&h=545&w=1440&sm=c&qlt=default&$qlt$&$poi$",
     video: "https://www.youtube.com/watch?v=1we3bh9uhqY",
+    muscleGroupImage: "/muscle-groups-filter-images/abs.png",
   },
   {
     name: "Russian Twists",
@@ -57,6 +61,7 @@ const absExercises = [
     exerciseImage:
       "https://media1.popsugar-assets.com/files/thumbor/Vv1TM93xqKvgM9IOWI8BoML88D8=/fit-in/2160x1484/top/filters:format_auto():extract_cover():upscale()/2024/01/02/752/n/1922729/3300e166ea0ccfe2_PS23_Fitness_Workout_14_Move_10_Russian_Twist_Alt.jpg",
     video: "https://www.youtube.com/watch?v=wkD8rjkodUI",
+    muscleGroupImage: "/muscle-groups-filter-images/abs.png",
   },
   {
     name: "Mountain Climbers",
@@ -69,6 +74,7 @@ const absExercises = [
     exerciseImage:
       "https://www.verywellfit.com/thmb/cVThoNaGu4-cHrt1f9NTv-JIR-U=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/3-MountainClimb-56fafe605f9b5829867945c0.jpg",
     video: "https://www.youtube.com/watch?v=De3Gl-nC7IQ",
+    muscleGroupImage: "/muscle-groups-filter-images/abs.png",
   },
   {
     name: "V-Ups",
@@ -81,6 +87,7 @@ const absExercises = [
     exerciseImage:
       "https://www.dmoose.com/cdn/shop/articles/Main-Image_45f524df-655b-4af5-bbfc-1205a914502f.jpg?v=1668779346",
     video: "https://www.youtube.com/watch?v=iP2fjvG0g3w",
+    muscleGroupImage: "/muscle-groups-filter-images/abs.png",
   },
   {
     name: "Flutter Kicks",
@@ -93,6 +100,7 @@ const absExercises = [
     exerciseImage:
       "https://www.dmoose.com/cdn/shop/articles/Flutter_Kicks.png?v=1660228873",
     video: "https://www.youtube.com/watch?v=ANVdMDaYRts",
+    muscleGroupImage: "/muscle-groups-filter-images/abs.png",
   },
   {
     name: "Cable Crunch",
@@ -105,6 +113,7 @@ const absExercises = [
     exerciseImage:
       "https://www.dmoose.com/cdn/shop/articles/1_f607c1e6-fb1a-45f8-bb2e-4dbf0ea4827f.jpg?v=1647865926",
     video: "https://www.youtube.com/watch?v=ToJeyhydUxU",
+    muscleGroupImage: "/muscle-groups-filter-images/abs.png",
   },
   {
     name: "Decline Sit-Up",
@@ -117,6 +126,7 @@ const absExercises = [
     exerciseImage:
       "https://www.dmoose.com/cdn/shop/articles/1_044424fd-62af-4b05-8d1f-ada1920bff63.jpg?v=1648738220",
     video: "https://www.youtube.com/watch?v=QhGU5cmNZds",
+    muscleGroupImage: "/muscle-groups-filter-images/abs.pngE",
   },
 ];
 
@@ -132,6 +142,7 @@ const bicepsExercises = [
     exerciseImage:
       "https://i0.wp.com/www.muscleandfitness.com/wp-content/uploads/2022/03/Black-fitness-model-demonstrating-how-to-do-the-drag-curl-exercise-in-the-gym.jpg?quality=86&strip=all",
     video: "https://www.youtube.com/watch?v=JnLFSFurrqQ",
+    muscleGroupImage: "/muscle-groups-filter-images/biceps.png",
   },
   {
     name: "Dumbbell Curl",
@@ -143,6 +154,7 @@ const bicepsExercises = [
     exerciseImage:
       "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTbLN7-qBd2rziOVeKjZ1qc30Y0axbd6x_dpg&s",
     video: "https://www.youtube.com/watch?v=ykJmrZ5v0Oo",
+    muscleGroupImage: "/muscle-groups-filter-images/biceps.png",
   },
   {
     name: "Hammer Curl",
@@ -154,6 +166,7 @@ const bicepsExercises = [
     exerciseImage:
       "https://i0.wp.com/www.strengthlog.com/wp-content/uploads/2023/05/hammer-curl-top-position.png?resize=750%2C753&ssl=1",
     video: "https://www.youtube.com/watch?v=zC3nLlEvin4",
+    muscleGroupImage: "/muscle-groups-filter-images/biceps.png",
   },
   {
     name: "Preacher Curl",
@@ -166,6 +179,7 @@ const bicepsExercises = [
     exerciseImage:
       "https://www.trainheroic.com/wp-content/uploads/2023/01/AdobeStock_186644984-TH-jpg.webp",
     video: "https://www.youtube.com/watch?v=vngli9UR6Hw",
+    muscleGroupImage: "/muscle-groups-filter-images/biceps.png",
   },
   {
     name: "Concentration Curl",
@@ -178,6 +192,7 @@ const bicepsExercises = [
     exerciseImage:
       "https://viewsfromhere.com/wp-content/uploads/2023/07/concentration-curls-720x1080.jpg",
     video: "https://www.youtube.com/watch?v=0AUGkch3tzc",
+    muscleGroupImage: "/muscle-groups-filter-images/biceps.png",
   },
   {
     name: "Cable Curl",
@@ -190,6 +205,7 @@ const bicepsExercises = [
     exerciseImage:
       "https://i0.wp.com/www.muscleandfitness.com/wp-content/uploads/2019/12/standing-cable-curl2.jpg?quality=55&strip=all",
     video: "https://www.youtube.com/watch?v=NFzTWp2qpiE",
+    muscleGroupImage: "/muscle-groups-filter-images/biceps.png",
   },
   {
     name: "Incline Dumbbell Curl",
@@ -201,6 +217,7 @@ const bicepsExercises = [
     exerciseImage:
       "https://origym.ie/files/img_cache/3658/1920_1610990505_Alternatinginclinedumbbellcurlstartingpositionimage.jpg?1610990517",
     video: "https://www.youtube.com/watch?v=aTYlqC_JacQ",
+    muscleGroupImage: "/muscle-groups-filter-images/biceps.png",
   },
   {
     name: "EZ-Bar Curl",
@@ -212,6 +229,7 @@ const bicepsExercises = [
     exerciseImage:
       "https://cdn.mos.cms.futurecdn.net/882r52chfQqDHNLeEAUnUB.jpg",
     video: "https://www.youtube.com/watch?v=6LrOTcr595A",
+    muscleGroupImage: "/muscle-groups-filter-images/biceps.png",
   },
   {
     name: "Spider Curl",
@@ -223,6 +241,7 @@ const bicepsExercises = [
     exerciseImage:
       "https://images.squarespace-cdn.com/content/v1/5f5e8592d2b0854b18af6975/ba4134fc-64a2-40a5-8ef3-801e6529c2c7/Spider+Curl.jpg",
     video: "https://www.youtube.com/watch?v=ke2shAeQ0O8",
+    muscleGroupImage: "/muscle-groups-filter-images/biceps.png",
   },
   {
     name: "Reverse Curl",
@@ -234,6 +253,7 @@ const bicepsExercises = [
     exerciseImage:
       "https://barbend.com/wp-content/uploads/2023/01/Barbend-Featured-Image-1200x675-A-closeup-of-a-person-doing-a-reverse-bicep-curl.jpg",
     video: "https://www.youtube.com/watch?v=hUA-fIpM7nA",
+    muscleGroupImage: "/muscle-groups-filter-images/biceps.png",
   },
 ];
 
@@ -249,6 +269,7 @@ const backExercises = [
     exerciseImage:
       "https://i0.wp.com/post.healthline.com/wp-content/uploads/2019/12/pull-up-pullup-gym-1296x728-header-1296x728.jpg?w=1155&h=1528",
     video: "https://www.youtube.com/watch?v=eGo4IYlbE5g",
+    muscleGroupImage: "/muscle-groups-filter-images/back.png",
   },
   {
     name: "Bent-Over Row",
@@ -261,6 +282,7 @@ const backExercises = [
     exerciseImage:
       "https://media.post.rvohealth.io/wp-content/uploads/2022/04/female-workout-bent-over-row-732-549-feature-thumb-732x549.jpg",
     video: "https://www.youtube.com/watch?v=6FZHJGzMFEc",
+    muscleGroupImage: "/muscle-groups-filter-images/back.png",
   },
   {
     name: "Lat Pulldown",
@@ -273,6 +295,7 @@ const backExercises = [
     exerciseImage:
       "https://www.trainheroic.com/wp-content/uploads/2023/03/AdobeStock_423445223-TH-jpg.webp",
     video: "https://www.youtube.com/watch?v=JGeRYIZdojU",
+    muscleGroupImage: "/muscle-groups-filter-images/back.png",
   },
   {
     name: "Seated Cable Row",
@@ -285,6 +308,7 @@ const backExercises = [
     exerciseImage:
       "https://sportpower.ir/wp-content/uploads/2023/06/2-min-12.jpg",
     video: "https://www.youtube.com/watch?v=UCXxvVItLoM",
+    muscleGroupImage: "/muscle-groups-filter-images/back.png",
   },
   {
     name: "T-Bar Row",
@@ -297,6 +321,7 @@ const backExercises = [
     exerciseImage:
       "https://www.setforset.com/cdn/shop/articles/t_bar_row_2000x.jpg?v=1652354255",
     video: "https://www.youtube.com/watch?v=yPis7nlbqdY",
+    muscleGroupImage: "/muscle-groups-filter-images/back.png",
   },
   {
     name: "One-Arm Dumbbell Row",
@@ -309,6 +334,7 @@ const backExercises = [
     exerciseImage:
       "https://cdn.mos.cms.futurecdn.net/zzFwwkQgCNMtmWQ7aQSxXe-320-80.jpg",
     video: "https://www.youtube.com/watch?v=DMo3HJoawrU",
+    muscleGroupImage: "/muscle-groups-filter-images/back.png",
   },
   {
     name: "Chin-Up",
@@ -321,6 +347,7 @@ const backExercises = [
     exerciseImage:
       "https://www.trainics.se/wp-content/uploads/2020/12/Chin-Up-Good-vs-Bad-Form-1-1-1024x791.jpg",
     video: "https://www.youtube.com/watch?v=XgYtn5hWJgs",
+    muscleGroupImage: "/muscle-groups-filter-images/back.png",
   },
   {
     name: "Inverted Row",
@@ -333,6 +360,7 @@ const backExercises = [
     exerciseImage:
       "https://i0.wp.com/www.muscleandfitness.com/wp-content/uploads/2017/10/1109-inverted-row0.jpg?quality=86&strip=all",
     video: "https://www.youtube.com/watch?v=KOaCM1HMwU0",
+    muscleGroupImage: "/muscle-groups-filter-images/back.png",
   },
   {
     name: "Back Extension",
@@ -345,6 +373,7 @@ const backExercises = [
     exerciseImage:
       "https://steelsupplements.com/cdn/shop/articles/shutterstock_1705063531_1000x.jpg?v=1642058677",
     video: "https://www.youtube.com/watch?v=ph3pddpKzzw",
+    muscleGroupImage: "/muscle-groups-filter-images/back.png",
   },
   {
     name: "Cable Pullover",
@@ -357,6 +386,7 @@ const backExercises = [
     exerciseImage:
       "https://www.setforset.com/cdn/shop/articles/cable_pullover_2000x.jpg?v=1639635664",
     video: "https://www.youtube.com/watch?v=hKrPaheywB8",
+    muscleGroupImage: "/muscle-groups-filter-images/back.png",
   },
 ];
 const chestExercises = [
@@ -371,6 +401,7 @@ const chestExercises = [
     exerciseImage:
       "https://cdn.mos.cms.futurecdn.net/pLaRi5jXSHDKu6WRydetBo-1200-80.jpg",
     video: "https://www.youtube.com/watch?v=lWFknlOTbyM",
+    muscleGroupImage: "/muscle-groups-filter-images/chest.png",
   },
   {
     name: "Incline Barbell Bench Press",
@@ -383,6 +414,7 @@ const chestExercises = [
     exerciseImage:
       "https://blogscdn.thehut.net/app/uploads/sites/444/2021/07/shutterstock_68880238opt_hero_1625232204.jpg",
     video: "https://www.youtube.com/watch?v=SrqOu55lrYU",
+    muscleGroupImage: "/muscle-groups-filter-images/chest.png",
   },
   {
     name: "Dumbbell Bench Press",
@@ -395,6 +427,7 @@ const chestExercises = [
     exerciseImage:
       "https://cdn.mos.cms.futurecdn.net/qiVuVgKaE84y8BGsHHAGf8.jpg",
     video: "https://www.youtube.com/watch?v=YQ2s_Y7g5Qk",
+    muscleGroupImage: "/muscle-groups-filter-images/chest.png",
   },
   {
     name: "Incline Dumbbell Bench Press",
@@ -407,6 +440,7 @@ const chestExercises = [
     exerciseImage:
       "https://blogscdn.thehut.net/app/uploads/sites/419/2021/12/shutterstock_263444231-min_1638521864-1_1639431705.jpeg",
     video: "https://www.youtube.com/watch?v=IP4oeKh1Sd4",
+    muscleGroupImage: "/muscle-groups-filter-images/chest.png",
   },
   {
     name: "Dumbbell Fly",
@@ -419,6 +453,7 @@ const chestExercises = [
     exerciseImage:
       "https://i0.wp.com/www.muscleandfitness.com/wp-content/uploads/2015/01/arnold-schwarzenegger-chest-workout.jpg?quality=86&strip=all",
     video: "https://www.youtube.com/watch?v=Nhvz9EzdJ4U",
+    muscleGroupImage: "/muscle-groups-filter-images/chest.png",
   },
   {
     name: "Pec Deck",
@@ -431,6 +466,7 @@ const chestExercises = [
     exerciseImage:
       "https://i0.wp.com/post.healthline.com/wp-content/uploads/2019/05/Male_Gym_Equipment_1296x728-header-1296x728.jpg?w=1155&h=1528",
     video: "https://www.youtube.com/watch?v=H4mVGHaK2f4",
+    muscleGroupImage: "/muscle-groups-filter-images/chest.png",
   },
   {
     name: "Cable Crossover",
@@ -443,6 +479,7 @@ const chestExercises = [
     exerciseImage:
       "https://www.gymreapers.com/cdn/shop/articles/cable_crossovers.jpg?v=1687891380&width=2048",
       video: "https://www.youtube.com/watch?v=taI4XduLpTk",
+    muscleGroupImage: "/muscle-groups-filter-images/chest.png",
   },
 
   {
@@ -455,6 +492,7 @@ const chestExercises = [
     exerciseImage:
       "https://media.post.rvohealth.io/wp-content/uploads/2019/05/Male_Chest_Press_732x549-thumbnail.jpg",
     video: "https://www.youtube.com/watch?v=NwzUje3z0qY",
+    muscleGroupImage: "/muscle-groups-filter-images/chest.png",
   },
   {
     name: "Machine Fly",
@@ -467,6 +505,7 @@ const chestExercises = [
     exerciseImage:
       "https://www.bodybuilding.com/fun/images/2015/9-fly-variations-graphics-cellucore-2.jpg",
     video: "https://www.youtube.com/watch?v=eGjt4lk6g34",
+    muscleGroupImage: "/muscle-groups-filter-images/chest.png",
   },
   {
     name: "Push Up",
@@ -479,6 +518,7 @@ const chestExercises = [
     exerciseImage:
       "https://cdn.mos.cms.futurecdn.net/HSEB9o9JGUoKPiaMpXzHg8.jpg",
     video: "https://www.youtube.com/watch?v=-WXc4E-zcao",
+    muscleGroupImage: "/muscle-groups-filter-images/chest.png",
   },
 ];
 const tricepsExercises = [
@@ -492,6 +532,7 @@ const tricepsExercises = [
     exerciseImage:
       "https://hips.hearstapps.com/hmg-prod/images/one-young-man-20-years-old-side-view-gym-indoors-royalty-free-image-1697629868.jpg?crop=1.00xw:1.00xh;0,0&resize=2048:*",
     video: "https://www.youtube.com/watch?v=6MwtkyNC2ZY",
+    muscleGroupImage: "/muscle-groups-filter-images/triceps.png",
   },
   {
     name: "Close-Grip Bench Press",
@@ -504,6 +545,7 @@ const tricepsExercises = [
     exerciseImage:
       "https://www.dmoose.com/cdn/shop/articles/1_155d781f-a698-40e7-bdb6-f0de019f9b89.jpg?v=1648738774",
     video: "https://www.youtube.com/watch?v=vEUyEOVn3yM",
+    muscleGroupImage: "/muscle-groups-filter-images/triceps.png",
   },
   {
     name: "Tricep Pushdown",
@@ -516,6 +558,7 @@ const tricepsExercises = [
     exerciseImage:
       "https://www.garagegymreviews.com/wp-content/uploads/woman-doing-cable-triceps-pushdown.jpg",
     video: "https://www.youtube.com/watch?v=6Fzep104f0s",
+    muscleGroupImage: "/muscle-groups-filter-images/triceps.png",
   },
   {
     name: "Skull Crusher",
@@ -528,6 +571,7 @@ const tricepsExercises = [
     exerciseImage:
       "https://hips.hearstapps.com/hmg-prod/images/hdm119918mh16094-1544025589.png?crop=0.668xw:1.00xh;0.151xw,0&resize=1200:*",
     video: "https://www.youtube.com/watch?v=l3rHYPtMUo8",
+    muscleGroupImage: "/muscle-groups-filter-images/triceps.png",
   },
   {
     name: "Overhead Tricep Extension",
@@ -539,6 +583,7 @@ const tricepsExercises = [
     exerciseImage:
       "https://media.post.rvohealth.io/wp-content/uploads/2021/10/overhead-tricep-extension-dumbbell-732x549-thumbnail.jpg",
     video: "https://www.youtube.com/watch?v=rqjLV14AeiU",
+    muscleGroupImage: "/muscle-groups-filter-images/triceps.png",
   },
   {
     name: "Bench Dip",
@@ -550,6 +595,7 @@ const tricepsExercises = [
     exerciseImage:
       "https://steelsupplements.com/cdn/shop/articles/shutterstock_1526664821_1000x.jpg?v=1644523346",
     video: "https://www.youtube.com/watch?v=c3ZGl4pAwZ4",
+    muscleGroupImage: "/muscle-groups-filter-images/triceps.png",
   },
   {
     name: "Tricep Kickback",
@@ -561,6 +607,7 @@ const tricepsExercises = [
                       4. Lower the dumbbells back to the starting position.",
     exerciseImage: "https://www.jefit.com/images/exercises/960_590/3112.jpg",
     video: "https://www.youtube.com/watch?v=6SS6K3lAwZ8",
+    muscleGroupImage: "/muscle-groups-filter-images/triceps.png",
   },
   {
     name: "Diamond Push-Up",
@@ -572,6 +619,7 @@ const tricepsExercises = [
     exerciseImage:
       "https://static.nike.com/a/images/f_auto/dpr_3.0,cs_srgb/h_484,c_limit/d11e56d9-0511-41d3-9af0-ffe2ecf22e14/what-muscles-do-diamond-push-ups-work%E2%80%94and-how-do-you-do-them.jpg",
     video: "https://www.youtube.com/watch?v=J0DnG1_S92I",
+    muscleGroupImage: "/muscle-groups-filter-images/triceps.png",
   },
   {
     name: "Dumbbell Tate Press",
@@ -583,6 +631,7 @@ const tricepsExercises = [
     exerciseImage:
       "https://i0.wp.com/www.muscleandfitness.com/wp-content/uploads/2017/06/600-tate-press.jpg?quality=86&strip=all",
     video: "https://www.youtube.com/watch?v=9Lpwk3nLve8",
+    muscleGroupImage: "/muscle-groups-filter-images/triceps.png",
   },
   {
     name: "Bodyweight Skull Crusher",
@@ -595,6 +644,7 @@ const tricepsExercises = [
     exerciseImage:
       "https://images.squarespace-cdn.com/content/v1/5f5e8592d2b0854b18af6975/1619972339111-ANM9PCB7GB47IT5BHZS3/Bodyweight%2BSkull%2BCrushers.jpg",
     video: "https://www.youtube.com/watch?v=BI6yw1w6wkk",
+    muscleGroupImage: "/muscle-groups-filter-images/triceps.png",
   },
 ];
 const shoulderExercises = [
@@ -608,6 +658,7 @@ const shoulderExercises = [
     exerciseImage:
       "https://images.ctfassets.net/8urtyqugdt2l/5yJyKuNvr395xYrIHf7Pk9/5afe6ee2d943ece433d9424ebae9ff50/barbell-press-how-to-exercise-female-tile.jpg",
     video: "https://www.youtube.com/watch?v=_RlRDWO2jfg",
+    muscleGroupImage: "/muscle-groups-filter-images/shoulders.png",
   },
   {
     name: "Arnold Press",
@@ -619,6 +670,7 @@ const shoulderExercises = [
     exerciseImage:
       "https://cdn.mos.cms.futurecdn.net/VrsQ5QwSQNEhdZqxeSnW4K.jpg",
     video: "https://www.youtube.com/watch?v=6Z15_WdXmVw",
+    muscleGroupImage: "/muscle-groups-filter-images/shoulders.png",
   },
   {
     name: "Lateral Raise",
@@ -630,6 +682,7 @@ const shoulderExercises = [
     exerciseImage:
       "https://www.dmoose.com/cdn/shop/articles/Dumbbell_Lateral_Raise.jpg?v=1701860183",
     video: "https://www.youtube.com/watch?v=PzsMitRdI_8",
+    muscleGroupImage: "/muscle-groups-filter-images/shoulders.png",
   },
   {
     name: "Front Raise",
@@ -641,6 +694,7 @@ const shoulderExercises = [
     exerciseImage:
       "https://www.dmoose.com/cdn/shop/articles/1_4cd4953d-bb36-43b2-b137-0003b8e77955.jpg?v=1653303297",
     video: "https://www.youtube.com/watch?v=-t7fuZ0KhDA",
+    muscleGroupImage: "/muscle-groups-filter-images/shoulders.png",
   },
   {
     name: "Rear Delt Fly",
@@ -653,6 +707,7 @@ const shoulderExercises = [
     exerciseImage:
       "https://welltech.com/wp-content/uploads/2023/04/Rear-Delt-Fly_cover.jpg",
     video: "https://www.youtube.com/watch?v=WPaVyXi03Rk",
+    muscleGroupImage: "/muscle-groups-filter-images/shoulders.png",
   },
   {
     name: "Face Pull",
@@ -665,6 +720,7 @@ const shoulderExercises = [
     exerciseImage:
       "https://i0.wp.com/www.muscleandfitness.com/wp-content/uploads/2018/12/800-ropefacepull.jpg?quality=86&strip=all",
     video: "https://www.youtube.com/watch?v=0Po47vvj9g4",
+    muscleGroupImage: "/muscle-groups-filter-images/shoulders.png",
   },
   {
     name: "Upright Row",
@@ -676,6 +732,7 @@ const shoulderExercises = [
     exerciseImage:
       "https://www.trainheroic.com/wp-content/uploads/2022/01/Upright-rows.jpg",
     video: "https://www.youtube.com/watch?v=um3VVzqunPU",
+    muscleGroupImage: "/muscle-groups-filter-images/shoulders.png",
   },
   {
     name: "Cable Lateral Raise",
@@ -688,6 +745,7 @@ const shoulderExercises = [
     exerciseImage:
       "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSBXVJWR7X9KuVEq1ei8hl42JHpcs5rm9M2FA&s",
     video: "https://www.youtube.com/watch?v=lq7eLC30b9w",
+    muscleGroupImage: "/muscle-groups-filter-images/shoulders.png",
   },
   {
     name: "Seated Dumbbell Press",
@@ -699,6 +757,7 @@ const shoulderExercises = [
     exerciseImage:
       "https://bodybuilding-wizard.com/wp-content/uploads/2014/05/dumbbell-overhead-press.jpg",
     video: "https://www.youtube.com/watch?v=HzIiNhHhhtA",
+    muscleGroupImage: "/muscle-groups-filter-images/shoulders.png",
   },
 ];
 const upperLegsExercises = [
@@ -714,6 +773,7 @@ const upperLegsExercises = [
     exerciseImage:
       "https://www.newbodyplan.co.uk/wp-content/uploads/2021/12/Squat-like-a-pro-burn-fat-leg-strength-muscle.jpg",
     video: "https://www.youtube.com/watch?v=rrJIyZGlK8c",
+    muscleGroupImage: "/muscle-groups-filter-images/upper_legs.png",
   },
   {
     name: "DB Lunge",
@@ -725,6 +785,7 @@ const upperLegsExercises = [
                       4. Repeat on the other side.",
     exerciseImage: "https://barbend.com/wp-content/uploads/2017/08/lunge.png",
     video: "https://www.youtube.com/watch?v=D7KaRcUTQeE",
+    muscleGroupImage: "/muscle-groups-filter-images/upper_legs.png",
   },
   {
     name: "Leg Press",
@@ -736,6 +797,7 @@ const upperLegsExercises = [
     exerciseImage:
       "https://cfuncannyfitness.com/wp-content/uploads/2018/01/leg-press-exercise.jpg",
     video: "https://www.youtube.com/watch?v=s9-zeWzPUmA",
+    muscleGroupImage: "/muscle-groups-filter-images/upper_legs.png",
   },
   {
     name: "Barbell Deadlift",
@@ -748,6 +810,7 @@ const upperLegsExercises = [
     exerciseImage:
       "https://hips.hearstapps.com/hmg-prod/images/fit-young-african-american-woman-working-out-with-royalty-free-image-1634219544.jpg?crop=1.00xw:0.753xh;0,0.122xh&resize=1200:*",
     video: "https://www.youtube.com/watch?v=XxWcirHIwVo",
+    muscleGroupImage: "/muscle-groups-filter-images/upper_legs.png",
   },
   {
     name: "Leg Extension",
@@ -759,6 +822,7 @@ const upperLegsExercises = [
     exerciseImage:
       "https://physiotutors.com/wp-content/uploads/2022/01/Seated-Leg-Extension-featured.webp",
     video: "https://www.youtube.com/watch?v=m0FOpMEgero",
+    muscleGroupImage: "/muscle-groups-filter-images/upper_legs.png",
   },
   {
     name: "Lying Leg Curl",
@@ -770,6 +834,7 @@ const upperLegsExercises = [
     exerciseImage:
       "https://blogscdn.thehut.net/app/uploads/sites/449/2021/12/shutterstock_1471492208-1-ftt-min_1639667937.jpg",
     video: "https://www.youtube.com/watch?v=n5WDXD_mpVY",
+    muscleGroupImage: "/muscle-groups-filter-images/upper_legs.png",
   },
   {
     name: "Bulgarian Split Squat",
@@ -782,6 +847,7 @@ const upperLegsExercises = [
     exerciseImage:
       "https://images.ctfassets.net/8urtyqugdt2l/2s5tdGn6iABdoqEui2l2MN/d02a204930ba68ee6e4fd5981a71a44d/Bulgarian_Split_Squats.jpg",
     video: "https://www.youtube.com/watch?v=SkNsa3eBwLA",
+    muscleGroupImage: "/muscle-groups-filter-images/upper_legs.png",
   },
   {
     name: "Sumo Deadlift",
@@ -794,6 +860,7 @@ const upperLegsExercises = [
     exerciseImage:
       "https://hips.hearstapps.com/hmg-prod/images/fai-6801-1644335059.jpeg?resize=980:*",
     video: "https://www.youtube.com/watch?v=PQ3A_HmfQyk",
+    muscleGroupImage: "/muscle-groups-filter-images/upper_legs.png",
   },
   {
     name: "Goblet Squat",
@@ -806,6 +873,7 @@ const upperLegsExercises = [
     exerciseImage:
       "https://hips.hearstapps.com/vidthumb/images/2019-menshealth-formcheck-ep11-tx-v6-patty-1553872483.jpg?crop=1.00xw:0.883xh;0,0.117xh&resize=1200:*",
     video: "https://www.youtube.com/watch?v=9W5KAqHfDe8",
+    muscleGroupImage: "/muscle-groups-filter-images/upper_legs.png",
   },
 
   {
@@ -818,6 +886,7 @@ const upperLegsExercises = [
     exerciseImage:
       "https://media.hearstapps.com/loop/1-1-237-1624956302.mp4/poster.jpg",
     video: "https://www.youtube.com/watch?v=9ZknEYboBOQ",
+    muscleGroupImage: "/muscle-groups-filter-images/upper_legs.png",
   },
   {
     name: "Hack Squat",
@@ -830,6 +899,7 @@ const upperLegsExercises = [
     exerciseImage:
       "https://breakingmuscle.com/wp-content/uploads/2022/09/hack-squat-bottom.jpg",
     video: "https://www.youtube.com/watch?v=0tn5K9NlCfo",
+    muscleGroupImage: "/muscle-groups-filter-images/upper_legs.png",
   },
   {
     name: "Hip Thrust",
@@ -842,6 +912,7 @@ const upperLegsExercises = [
     exerciseImage:
       "https://www.verywellfit.com/thmb/ixEjQ33jGFFKqP7A5iCn1gyvL_Y=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/hip-thrust-exercise--1199620482-e1e7b0f530a2477487fc0006e45fd7c9.jpg",
     video: "https://www.youtube.com/watch?v=xDmFkJxPzeM",
+    muscleGroupImage: "/muscle-groups-filter-images/upper_legs.png",
   },
   {
     name: "Pistol Squat",
@@ -853,6 +924,7 @@ const upperLegsExercises = [
     exerciseImage:
       "https://media.self.com/photos/57d8843c50778cef321a440d/master/w_1600%2Cc_limit/how-to-pistol-squat-870.jpg",
     video: "https://www.youtube.com/watch?v=NTf8YRWfOHY",
+    muscleGroupImage: "/muscle-groups-filter-images/upper_legs.png",
   },
   {
     name: "Glute Bridge",
@@ -864,6 +936,7 @@ const upperLegsExercises = [
     exerciseImage:
       "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSn-FRN412yqjRflIFaUONKGZbV_Oq7zkgyfw&s",
     video: "https://www.youtube.com/watch?v=cJWrTdRYNnw",
+    muscleGroupImage: "/muscle-groups-filter-images/upper_legs.png",
   },
   {
     name: "Good Morning",
@@ -876,6 +949,7 @@ const upperLegsExercises = [
     exerciseImage:
       "https://images.ctfassets.net/8urtyqugdt2l/28AvVNTuNoZkOUJz6MBOvN/a002fb8afbf84fba2f26797fef35fe5c/tile-barbell-goodmorning.jpg",
     video: "https://www.youtube.com/watch?v=vKPGe8zb2S4",
+    muscleGroupImage: "/muscle-groups-filter-images/upper_legs.png",
   },
 ];
 const calvesExercises = [
@@ -890,6 +964,7 @@ const calvesExercises = [
     exerciseImage:
       "https://i0.wp.com/www.muscleandfitness.com/wp-content/uploads/2014/02/6117_B.jpg?w=800&h=630&crop=1&quality=86&strip=all",
     video: "https://www.youtube.com/watch?v=SRUtMJ0tE2A",
+    muscleGroupImage: "/muscle-groups-filter-images/lower_legs.png",
   },
   {
     name: "Seated Calf Raise",
@@ -902,6 +977,7 @@ const calvesExercises = [
     exerciseImage:
       "https://www.dmoose.com/cdn/shop/articles/1_5a552186-2a78-4db2-8d35-08b08cc2065d.jpg?v=1647873709",
     video: "https://www.youtube.com/watch?v=3ZRe_QpvRPg",
+    muscleGroupImage: "/muscle-groups-filter-images/lower_legs.png",
   },
   {
     name: "Donkey Calf Raise",
@@ -914,6 +990,7 @@ const calvesExercises = [
     exerciseImage:
       "https://cdn.muscleandstrength.com/sites/default/files/donkey-calf-raise.jpg",
     video: "https://www.youtube.com/watch?v=r30EoMPSNns",
+    muscleGroupImage: "/muscle-groups-filter-images/lower_legs.png",
   },
   {
     name: "Calf Press on Leg Press Machine",
@@ -926,6 +1003,7 @@ const calvesExercises = [
     exerciseImage:
       "https://i0.wp.com/www.muscleandfitness.com/wp-content/uploads/2017/06/600-leg-press-calf-raise.jpg?quality=86&strip=all",
     video: "https://www.youtube.com/watch?v=KxEYX_cuesM",
+    muscleGroupImage: "/muscle-groups-filter-images/lower_legs.png",
   },
   {
     name: "Single-Leg Calf Raise",
@@ -938,6 +1016,7 @@ const calvesExercises = [
     exerciseImage:
       "https://d3p2750kqzf48b.cloudfront.net/wp-content/uploads/2015/12/07160058/Single-Leg-Calf-Raise.jpg",
     video: "https://www.youtube.com/watch?v=ORT4oJ_R8Qs",
+    muscleGroupImage: "/muscle-groups-filter-images/lower_legs.png",
   },
   {
     name: "Smith Machine Calf Raise",
@@ -950,6 +1029,7 @@ const calvesExercises = [
     exerciseImage:
       "https://bodybuilding-wizard.com/wp-content/uploads/2014/04/smith-machine-standing-calf-raise-2-0.jpg",
     video: "https://www.youtube.com/watch?v=hh5516HCu4k",
+    muscleGroupImage: "/muscle-groups-filter-images/lower_legs.png",
   },
 ];
 const allExercises = {

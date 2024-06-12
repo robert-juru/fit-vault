@@ -1,0 +1,18 @@
+@import "/src/index.scss";
+
+.exerciseDetailsContainer {
+    display:grid;
+    grid-template-columns: 2fr 1fr;
+}
+
+.leftContainer, .rightContainer {
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.exerciseImage {
+    height:400px;
+    // width:400px;
+    width:100%;
+}

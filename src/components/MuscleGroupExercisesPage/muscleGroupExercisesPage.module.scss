@@ -26,7 +26,7 @@
   border-radius: 12px;
   max-width: 500px;
   display: grid;
-  padding: 8px;
+  padding: 12px;
   grid-template-columns: 1fr 1fr;
   transition: transform 0.3s, background-color 0.3s;
 }
@@ -47,6 +47,5 @@
 }
 .exerciseDescription {
   font-style: italic;
-  // font-weight:100;
   color: #808080;
 }
