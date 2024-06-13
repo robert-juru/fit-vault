@@ -5,6 +5,7 @@ import styles from "./exerciseDetailsPage.module.scss";
 import MuscleGroupCard from "../ExercisesPage/MuscleGroupCard";
 import muscleGroupsFilter from "../ExercisesPage/muscleGroupsFilter";
 import ReactPlayer from "react-player";
+import useScrollToTop from "../useScrollToTop";
 
 const ExerciseDetailsPage = () => {
   const { muscleGroup, exercise } = useParams();
@@ -12,7 +13,7 @@ const ExerciseDetailsPage = () => {
   const selectedExercise = exercises.find(
     (ex) => ex.name.replace(/\s+/g, "-").toLowerCase() === exercise
   );
-
+  useScrollToTop();
   if (!selectedExercise) {
     return (
       <div>

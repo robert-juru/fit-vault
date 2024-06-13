@@ -2,6 +2,7 @@ import { useParams, Link } from "react-router-dom";
 import allExercises from "../ExercisesPage/exercises";
 import Header from "../Header/Header";
 import styles from "./muscleGroupExercisesPage.module.scss";
+import useScrollToTop from "../useScrollToTop";
 
 const MuscleGroupExercisesPage = () => {
   const { muscleGroup } = useParams();
@@ -9,6 +10,9 @@ const MuscleGroupExercisesPage = () => {
   const isAllExercisesPage = muscleGroup === "all";
   const primaryMuscleGroup =
     muscleGroup.charAt(0).toUpperCase() + muscleGroup.slice(1);
+
+  useScrollToTop();
+  
   return (
     <div className={styles.pageContainer}>
       <Header />
@@ -47,7 +51,9 @@ const MuscleGroupExercisesPage = () => {
             <div className={styles.pageContainer}>
               <h2>No exercises found for this muscle group.</h2>
               <p>
-                <Link className={styles.linkToMuscleGroup} to="/exercises">Select another muscle group here.</Link>
+                <Link className={styles.linkToMuscleGroup} to="/exercises">
+                  Select another muscle group here.
+                </Link>
               </p>
             </div>
           )}

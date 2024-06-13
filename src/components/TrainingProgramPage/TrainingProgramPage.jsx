@@ -5,8 +5,10 @@ import ProgramImage from "./ProgramImage/ProgramImage";
 import ProgramDescription from "./ProgramDescription/ProgramDescription";
 import ProgramOverview from "./ProgramOverview/ProgramOverview";
 import ProgramWorkout from "./ProgramWorkout/ProgramWorkout";
+import useScrollToTop from "../useScrollToTop.jsx";
 
 const TrainingProgram = () => {
+  useScrollToTop();
   return (
     <div className={styles.pageContainer}>
       <Header />
