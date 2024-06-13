@@ -1,5 +1,6 @@
 import styles from "./exercisesPage.module.scss";
 import MuscleGroupCard from "./MuscleGroupCard";
+import muscleGroupsFilter from "./muscleGroupsFilter";
 
 const ExercisesFilter = () => {
   return (
@@ -11,7 +12,9 @@ const ExercisesFilter = () => {
           you want to focus on.
         </h2>
         <section className={styles.muscleGroupsSection}>
-          <MuscleGroupCard />
+          {muscleGroupsFilter.map((muscle, index) => (
+            <MuscleGroupCard key={index} muscle={muscle} />
+          ))}
         </section>
       </main>
     </>

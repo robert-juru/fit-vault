@@ -1,18 +1,56 @@
 @import "/src/index.scss";
 
 .exerciseDetailsContainer {
-    display:grid;
-    grid-template-columns: 2fr 1fr;
+  display: grid;
+  grid-template: 2fr 1fr / 2fr 1fr;
+  padding: 0px 48px;
+  background-color: $main-bgcolor;
+  border-top: $main-border-top;
 }
 
-.leftContainer, .rightContainer {
-    display:flex;
-    justify-content: center;
-    flex-direction: column;
+.leftContainer,
+.rightContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  //   outline: 1px solid gold;
+}
+
+.mainMuscleHeader {
+  margin-bottom: 16px;
 }
 
 .exerciseImage {
-    height:400px;
-    // width:400px;
-    width:100%;
+  height: 300px;
+  width: 700px;
+}
+
+.muscleGroupImage {
+  height: 150px;
+  width: 250px;
+}
+
+.exercisePageHeader {
+  font-size: 36px;
+  margin: 32px 0px;
+}
+
+.exerciseDescription {
+  grid-column: 1/3;
+  grid-row: 2/3;
+  text-align: center;
+  margin: 0px 150px;
+  line-height: 40px;
+  font-size: 20px;
+}
+
+.linkToExercises {
+  @include flex-center;
+  font-style: italic;
+  color: #808080;
+}
+
+.instructionsHeader {
+  margin: 16px 0px;
 }

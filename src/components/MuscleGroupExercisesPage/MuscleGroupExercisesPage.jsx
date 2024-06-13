@@ -6,6 +6,7 @@ import styles from "./muscleGroupExercisesPage.module.scss";
 const MuscleGroupExercisesPage = () => {
   const { muscleGroup } = useParams();
   const exercises = allExercises[muscleGroup] || [];
+  const isAllExercisesPage = muscleGroup === "all";
   const primaryMuscleGroup =
     muscleGroup.charAt(0).toUpperCase() + muscleGroup.slice(1);
   return (
@@ -20,8 +21,11 @@ const MuscleGroupExercisesPage = () => {
                 .replace(/\s+/g, "-")
                 .toLowerCase();
               return (
-                <article  key={index}>
-                  <Link className={styles.exerciseCard} to={`/exercises/${muscleGroup}/${formattedExerciseName}`}>
+                <article key={index}>
+                  <Link
+                    className={styles.exerciseCard}
+                    to={`/exercises/${muscleGroup}/${formattedExerciseName}`}
+                  >
                     <img
                       className={styles.exerciseImage}
                       src={exercise.exerciseImage}
@@ -30,7 +34,9 @@ const MuscleGroupExercisesPage = () => {
                     <div className={styles.exerciseDetails}>
                       <h2 className={styles.exerciseName}>{exercise.name}</h2>
                       <p className={styles.exerciseDescription}>
-                        Primary muscle: {exercise.muscleGroup}
+                        {isAllExercisesPage
+                          ? exercise.muscleGroup
+                          : primaryMuscleGroup}
                       </p>
                     </div>
                   </Link>
@@ -38,7 +44,12 @@ const MuscleGroupExercisesPage = () => {
               );
             })
           ) : (
-            <p>No exercises found for this muscle group.</p>
+            <div className={styles.pageContainer}>
+              <h2>No exercises found for this muscle group.</h2>
+              <p>
+                <Link className={styles.linkToMuscleGroup} to="/exercises">Select another muscle group here.</Link>
+              </p>
+            </div>
           )}
         </section>
       </main>
