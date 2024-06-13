@@ -4,6 +4,7 @@ import Header from "../Header/Header";
 import styles from "./exerciseDetailsPage.module.scss";
 import MuscleGroupCard from "../ExercisesPage/MuscleGroupCard";
 import muscleGroupsFilter from "../ExercisesPage/muscleGroupsFilter";
+import ReactPlayer from "react-player";
 
 const ExerciseDetailsPage = () => {
   const { muscleGroup, exercise } = useParams();
@@ -39,7 +40,7 @@ const ExerciseDetailsPage = () => {
   );
 
   return (
-    <div>
+    <div className={styles.pageContainer}>
       <Header />
       <main className={styles.exerciseDetailsContainer}>
         <section className={styles.leftContainer}>
@@ -67,6 +68,12 @@ const ExerciseDetailsPage = () => {
             </p>
           ))}
         </section>
+        <div className={styles.playerWrapper}>
+            <ReactPlayer
+              className={styles.reactPlayer}
+              url={selectedExercise.video}
+            />
+          </div>
       </main>
     </div>
   );
