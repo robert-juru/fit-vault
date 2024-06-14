@@ -1,4 +1,4 @@
-const absExercises = [
+export const absExercises = [
   {
     name: "Crunches",
     muscleGroup: "Abs",
@@ -130,7 +130,7 @@ const absExercises = [
   },
 ];
 
-const bicepsExercises = [
+export const bicepsExercises = [
   {
     name: "Barbell Curl",
     muscleGroup: "Biceps",
@@ -257,7 +257,7 @@ const bicepsExercises = [
   },
 ];
 
-const backExercises = [
+export const backExercises = [
   {
     name: "Pull-Up",
     muscleGroup: "Back",
@@ -389,7 +389,7 @@ const backExercises = [
     muscleGroupImage: "/muscle-groups-filter-images/back.png",
   },
 ];
-const chestExercises = [
+export const chestExercises = [
   {
     name: "Barbell Bench Press",
     muscleGroup: "Chest",
@@ -521,7 +521,7 @@ const chestExercises = [
     muscleGroupImage: "/muscle-groups-filter-images/chest.png",
   },
 ];
-const tricepsExercises = [
+export const tricepsExercises = [
   {
     name: "Tricep Dip",
     muscleGroup: "Triceps",
@@ -647,7 +647,7 @@ const tricepsExercises = [
     muscleGroupImage: "/muscle-groups-filter-images/triceps.png",
   },
 ];
-const shoulderExercises = [
+export const shoulderExercises = [
   {
     name: "Overhead Press",
     muscleGroup: "Shoulders",
@@ -760,7 +760,7 @@ const shoulderExercises = [
     muscleGroupImage: "/muscle-groups-filter-images/shoulders.png",
   },
 ];
-const upperLegsExercises = [
+export const upperLegsExercises = [
   // Legs
   {
     name: "Barbell Squat",
@@ -952,7 +952,7 @@ const upperLegsExercises = [
     muscleGroupImage: "/muscle-groups-filter-images/upper_legs.png",
   },
 ];
-const calvesExercises = [
+export const calvesExercises = [
   // Calves
   {
     name: "DB Calf Raise",
@@ -1032,7 +1032,7 @@ const calvesExercises = [
     muscleGroupImage: "/muscle-groups-filter-images/lower_legs.png",
   },
 ];
-const allExercises = {
+export const allExercises = {
   all: [
     ...absExercises,
     ...bicepsExercises,
