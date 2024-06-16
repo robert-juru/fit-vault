@@ -9,8 +9,9 @@ import { upperLegsExercises } from "./components/ExercisesPage/exercises";
 
 const programs = [
   {
-    programImage: "./program-images/hypertrophy-for-starters.webp",
+    programImage: "/./program-images/hypertrophy-for-starters.webp",
     name: "Hypertrophy for Starters",
+    id:"hypertrophy-for-starters",
     difficulty: "Beginner",
     goal: "Bodybuilding",
     workoutsPerWeek: "3 Days",
@@ -52,8 +53,9 @@ const programs = [
     },
   },
   {
-    programImage: "./program-images/big-3-for-novices.jpg",
+    programImage: "/./program-images/big-3-for-novices.jpg",
     name: "Big 3 for Novices",
+    id:"big-3-for-novices",
     difficulty: "Novice",
     goal: "Powerlifting",
     workoutsPerWeek: "4 Days",
@@ -118,6 +120,7 @@ const programs = [
   {
     programImage: "/./program-images/peak-performance.jpg",
     name: "Peak Performance",
+    id:"peak-performance",
     difficulty: "Intermediate",
     goal: "Powerbuilding",
     workoutsPerWeek: "5 Days",
@@ -224,8 +227,9 @@ const programs = [
     },
   },
   {
-    programImage: "./program-images/everyday-athlete.jpg",
+    programImage: "/./program-images/everyday-athlete.jpg",
     name: "Everyday Athlete",
+    id:"everyday-athlete",
     difficulty: "Advanced",
     goal: "Bodyweight Fitness",
     workoutsPerWeek: "2 Days",
@@ -260,8 +264,9 @@ const programs = [
     },
   },
   {
-    programImage: "./program-images/foundation-fitness.webp",
+    programImage: "/./program-images/foundation-fitness.webp",
     name: "Foundation Fitness",
+    id:"foundation-fitness",
     difficulty: "Beginner",
     goal: "Bodybuilding",
     workoutsPerWeek: "2 Days",
@@ -296,8 +301,9 @@ const programs = [
     },
   },
   {
-    programImage: "./program-images/big-lifts-blitz.webp",
+    programImage: "/./program-images/big-lifts-blitz.webp",
     name: "Big Lifts Blitz",
+    id:"big-lifts-blitz",
     difficulty: "Novice",
     goal: "Powerlifting",
     workoutsPerWeek: "3 Days",
@@ -356,8 +362,9 @@ const programs = [
     },
   },
   {
-    programImage: "./program-images/power-physique.webp",
+    programImage: "/./program-images/power-physique.webp",
     name: "Power Physique",
+    id:"power-physique",
     difficulty: "Intermediate",
     goal: "Bodybuilding",
     workoutsPerWeek: "4 Days",
@@ -436,8 +443,9 @@ const programs = [
     },
   },
   {
-    programImage: "./program-images/advanced-conditioning.jpg",
+    programImage: "/./program-images/advanced-conditioning.jpg",
     name: "Advanced Conditioning",
+    id:"advance-conditioning",
     difficulty: "Advanced",
     goal: "Bodyweight Fitness",
     workoutsPerWeek: "4 Days",
@@ -501,8 +509,9 @@ const programs = [
     },
   },
   {
-    programImage: "./program-images/strength-surge.jpg",
+    programImage: "/./program-images/strength-surge.jpg",
     name: "Strength Surge",
+    id:"strength-surge",
     difficulty: "Novice",
     goal: "Powerbuilding",
     workoutsPerWeek: "6 Days",

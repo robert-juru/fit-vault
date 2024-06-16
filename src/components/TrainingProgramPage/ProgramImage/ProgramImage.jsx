@@ -1,12 +1,12 @@
 import styles from "../trainingProgram.module.scss";
 
-const ProgramImage = () => {
+const ProgramImage = ({programImage, programName}) => {
   return (
     <div className={styles.programImageContainer}>
       <img
         className={styles.programImage}
-        src="public\program-image-placeholder.webp"
-        alt="program image placeholder"
+        src={programImage}
+        alt={`${programName} image`}
       />
     </div>
   );

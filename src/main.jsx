@@ -8,13 +8,15 @@ import TrainingProgramPage from "./components/TrainingProgramPage/TrainingProgra
 import ExercisesPage from "./components/ExercisesPage/ExercisesPage.jsx";
 import MuscleGroupExercisesPage from "./components/MuscleGroupExercisesPage/MuscleGroupExercisesPage.jsx";
 import ExerciseDetailsPage from "./components/ExerciseDetailsPage/ExerciseDetailsPage.jsx";
+import programs from "./programs.jsx";
 
 const router = createBrowserRouter([
   {
     path: "/",
     element: <App />,
   },
-  { path: "/program", element: <TrainingProgramPage /> },
+
+  // { path: "/program", element: <TrainingProgramPage /> },
   {
     path: "/exercises",
     element: <ExercisesPage />,
@@ -24,6 +26,10 @@ const router = createBrowserRouter([
     path: "/exercises/:muscleGroup/:exercise",
     element: <ExerciseDetailsPage />,
   },
+  ...programs.map((program) => ({
+    path: `/program/${program.id}`,
+    element: <TrainingProgramPage program={program} />,
+  })),
 ]);
 
 ReactDOM.createRoot(document.getElementById("root")).render(

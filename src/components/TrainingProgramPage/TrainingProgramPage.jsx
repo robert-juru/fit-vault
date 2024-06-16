@@ -7,17 +7,17 @@ import ProgramOverview from "./ProgramOverview/ProgramOverview";
 import ProgramWorkout from "./ProgramWorkout/ProgramWorkout";
 import useScrollToTop from "../useScrollToTop.jsx";
 
-const TrainingProgram = () => {
+const TrainingProgram = ({program}) => {
   useScrollToTop();
   return (
     <div className={styles.pageContainer}>
       <Header />
       <main className={styles.trainingProgramContainer}>
-        <h1 className={styles.pageHeader}>The Absolute Athlete</h1>
-        <ProgramImage/>
-        <ProgramDescription/>
-        <ProgramOverview/>
-        <ProgramWorkout/>
+        <h1 className={styles.pageHeader}>{program.name}</h1>
+        <ProgramImage  programName={program.name} programImage={program.programImage}/>
+        <ProgramDescription program={program}/>
+        <ProgramOverview program={program}/>
+        <ProgramWorkout program={program}/>
       </main>
     </div>
   );
