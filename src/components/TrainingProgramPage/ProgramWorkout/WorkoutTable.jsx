@@ -28,24 +28,12 @@ const StyledTableRow = styled(TableRow)(({ theme }) => ({
   },
 }));
 
-function createData(exerciseName, sets, reps, intensity) {
-  return { exerciseName, sets, reps, intensity };
-}
-
-const rows = [
-  createData('Barbell Bench Press', 3, '6-8', 'RPE 8'),
-  createData('Incline DB Press', 3, '8-12', 'RPE 9'),
-  createData('Weighted Chin-ups', 3, '6-8', 'RPE 8'),
-  createData('Barbell Row', 3, '8-12', 'RPE 9'),
-  createData('Seated DB Curls', 3, '12-15', 'RPE 10'),
-];
-
-export default function WorkoutTable({  }) {
+export default function WorkoutTable({ program }) {
   // if (!program.programStructure) return <p>No workout data available</p>;
-
+  console.log(program);
   return (
     <>
-      <h2 className={styles.workoutNameHeader}>Workout A - Upper Body</h2>
+      <h2 className={styles.workoutNameHeader}>{program[0].name}</h2>
       <TableContainer sx={{ width: 4 / 5, marginBottom: 4 }} component={Paper}>
         <Table sx={{ minWidth: 300 }} aria-label="customized table">
           <TableHead>
@@ -58,15 +46,15 @@ export default function WorkoutTable({  }) {
             </TableRow>
           </TableHead>
           <TableBody>
-            {rows.map((row) => (
-              <StyledTableRow key={row.exerciseName}>
-                <StyledTableCell align="center">1</StyledTableCell>
+            {program.slice(1).map((ex, index) => (
+              <StyledTableRow key={ex.name}>
+                <StyledTableCell align="center">{index + 1}</StyledTableCell>
                 <StyledTableCell component="th" scope="row">
-                  {row.exerciseName}
+                  {ex.exercise.name}
                 </StyledTableCell>
-                <StyledTableCell align="right">{row.sets}</StyledTableCell>
-                <StyledTableCell align="right">{row.reps}</StyledTableCell>
-                <StyledTableCell align="right">{row.intensity}</StyledTableCell>
+                <StyledTableCell align="right">{ex.sets}</StyledTableCell>
+                <StyledTableCell align="right">{ex.reps}</StyledTableCell>
+                <StyledTableCell align="right">{ex.intensity}</StyledTableCell>
               </StyledTableRow>
             ))}
           </TableBody>

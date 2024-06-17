@@ -15,9 +15,9 @@ const TrainingProgram = ({program}) => {
       <main className={styles.trainingProgramContainer}>
         <h1 className={styles.pageHeader}>{program.name}</h1>
         <ProgramImage  programName={program.name} programImage={program.programImage}/>
-        <ProgramDescription program={program}/>
-        <ProgramOverview program={program}/>
-        <ProgramWorkout program={program}/>
+        <ProgramDescription programDescription={program.description}/>
+        <ProgramOverview goal={program.goal} level={program.difficulty} wkPerWeek={program.workoutsPerWeek} wkDuration={program.workoutDuration} />
+        <ProgramWorkout program={program.programStructure}/>
       </main>
     </div>
   );

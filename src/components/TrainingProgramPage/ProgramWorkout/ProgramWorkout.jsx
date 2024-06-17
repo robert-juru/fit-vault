@@ -1,12 +1,12 @@
 import WorkoutTable from "./WorkoutTable";
 
-const ProgramWorkout = () => {
+const ProgramWorkout = ({ program }) => {
+  console.log(program)
   return (
     <>
-      <WorkoutTable />
-      <WorkoutTable />
-      <WorkoutTable />
-      <WorkoutTable />
+      {Object.keys(program).map((dayKey) => (
+        <WorkoutTable key={dayKey} program={program[dayKey]}/>
+      ))}
     </>
   );
 };
